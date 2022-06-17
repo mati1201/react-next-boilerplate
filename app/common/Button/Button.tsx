@@ -1,14 +1,15 @@
 import React from 'react';
 
+import { ButtonProps } from '@/typings/button';
 import styles from './Button.module.scss';
 
 type Props = {
-  type: 'button' | 'submit' | 'reset';
+  type: ButtonProps;
   children: React.ReactNode;
 };
 
 const Button: React.FC<Props> = ({
-  type = 'button',
+  type = ButtonProps.BUTTON,
   children,
 }) => (
   <button

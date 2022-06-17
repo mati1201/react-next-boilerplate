@@ -13,6 +13,8 @@
       "namedComponents": "arrow-function",
       "unnamedComponents": ["function-expression", "arrow-function"]
     }],
-    "react/jsx-max-props-per-line": ["error", { "maximum": 1 }]
+    "react/jsx-max-props-per-line": ["error", { "maximum": 1 }],
+    "no-restricted-exports": "off",
+    "import/extensions": ["error", "never"]
   }
 }
