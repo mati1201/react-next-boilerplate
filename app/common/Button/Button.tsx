@@ -4,7 +4,7 @@ import { ButtonProps } from '@/typings/button';
 import styles from './Button.module.scss';
 
 type Props = {
-  type: ButtonProps;
+  type?: ButtonProps;
   children: React.ReactNode;
 };
 
