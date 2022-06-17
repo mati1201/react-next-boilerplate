@@ -19,10 +19,19 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "preserve",
-    "incremental": true
+    "incremental": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/containers/*": ["app/containers/*"],
+      "@/common/*": ["app/common/*"],
+      "@/constants/*": ["app/constants/*"],
+      "@/utils/*": ["app/utils/*"],
+      "@/typings/*": ["app/typings/*"],
+      "@/styles/*": ["app/styles/*"],
+    }
   },
   "include": [
-    "src",
+    "app",
     "pages"
   ],
   "exclude": [
