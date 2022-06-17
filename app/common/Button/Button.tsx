@@ -14,7 +14,7 @@ const Button: React.FC<Props> = ({
 }) => (
   <button
     type={type}
-    className="test"
+    className={styles.button}
   >
     {children}
   </button>
