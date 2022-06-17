@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image'
 
 import logo from '../public/images/logo.svg';
-import styles from '../src/containers/Home/Home.module.scss';
+import styles from '@/containers/Home/Home.module.scss';
 
 const Home = () => (
   <div className={styles.app}>
