@@ -32,7 +32,8 @@
   },
   "include": [
     "app",
-    "pages"
+    "pages",
+    "declaration.d.ts"
   ],
   "exclude": [
     "node_modules"
