@@ -22,11 +22,12 @@
     "incremental": true,
     "baseUrl": ".",
     "paths": {
-      "@/containers/*": ["app/containers/*"],
+      "@/views/*": ["app/views/*"],
       "@/common/*": ["app/common/*"],
       "@/constants/*": ["app/constants/*"],
       "@/utils/*": ["app/utils/*"],
       "@/typings/*": ["app/typings/*"],
+      "@/store/*": ["app/store/*"],
       "@/styles/*": ["app/styles/*"],
     }
   },

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Home from '@/containers/Home';
+import Home from '@/views/Home';
 
 const HomePage = () => (
   <Home />

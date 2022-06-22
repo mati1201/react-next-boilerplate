@@ -1,7 +1,14 @@
+/* eslint-disable react/jsx-props-no-spreading */
 import React from 'react';
+import { Provider } from 'react-redux';
 import type { AppProps } from 'next/app';
 
-// eslint-disable-next-line react/jsx-props-no-spreading
-const MyApp = ({ Component, pageProps }: AppProps) => <Component {...pageProps} />;
+import store, { wrapper } from '@/store/store';
 
-export default MyApp;
+const App = ({ Component, pageProps }: AppProps) => (
+  <Provider store={store}>
+    <Component {...pageProps} />
+  </Provider>
+);
+
+export default wrapper.withRedux(App);
