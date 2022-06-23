@@ -5,7 +5,6 @@ import dogsReducer from '@/views/Dogs/store/dogsSlice';
 import hydrateReducer from './hydrateReducer';
 
 const appReducer = combineReducers({
-  hydrateReducer,
   dogs: dogsReducer,
 });
 
